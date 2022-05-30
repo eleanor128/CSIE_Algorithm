@@ -25,7 +25,19 @@ Output:兩個距離最近的點之間距離為多少，輸出至小數點後 3 �
 <img width="230" alt="image" src="https://user-images.githubusercontent.com/83395975/170953669-31c35aab-fea5-4bce-9370-8db488077b3a.png">
 
 ## HW3 Mathematical Expression Problem
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/83395975/170953806-9f39f1e0-1083-45bf-b489-1bddfe8c9c96.png">
+```
+給定一個沒有括號的數學表達式，請設計一個演算法來給表達式加上括號，使得表達式的值最大化。
+例如，考慮表達式：2+7*5。
+有兩種方法可以將表達式 2+(7*5) = 37 和 (2+7)*5 = 45 括起來，
+因此在這種情況下，應該輸出第二個表達式。
+您可以假設給定的表達式僅包含 3 種二元運算符“+”、“-”和“*”。
+括起來的表達式不唯一，輸出其中一種方式即可。
+Input:
+2+7*5
+Output:
+45
+(2+7)*5
+```
 
 ## HW4 Job Schduling Problem
 ```
@@ -52,4 +64,30 @@ Output:
 4 3 1
 ```
 ## HW5 Critical Link Problem
-<img width="241" alt="image" src="https://user-images.githubusercontent.com/83395975/170953479-4a6ae04b-55e0-4983-8f95-5b2961fa262c.png">
+```
+In a computer network a link L, which interconnects two servers, is considered critical if there are at least two servers A and B such that all network interconnection paths between A and B pass through L. 
+Removing a critical link generates two disjoint sub–networks such that any two servers of a sub–network are interconnected.
+It is known that：
+1. the connection links are bi–directional
+2. a server is not directly connected to itself
+3. two servers are interconnected if they are directly connected or if they are interconnected with the same server
+4. The network can have stand–alone sub–networks Write a program that finds all critical links of a given computer network.
+ex. <0,3> and <3,4> are critical links
+
+Input: 
+The first line contains a positive integer n which is the number of network servers.
+The next k lines until EOF are randomly ordered and show the way servers are connected.
+Output: 
+Prints all critical links in network increasingly.
+ 
+範例輸入: 
+5
+1 0
+2 1
+0 2
+3 0
+3 4
+範例輸出: 
+0 3
+3 4
+```
