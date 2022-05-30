@@ -10,7 +10,7 @@
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/83395975/170953806-9f39f1e0-1083-45bf-b489-1bddfe8c9c96.png">
 
 ## HW4 Job Schduling Problem
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/83395975/170954596-e5159fac-514e-4ffd-bb06-607c1d214b40.png">
+
 假設您有一台機器和𝑛個要在該機器上處理的工作 𝑗𝑜𝑏1,…, 𝑗𝑜𝑏𝑛。每個 𝑗𝑜𝑏𝑖 都有一個處理時間 𝑝𝑖 和一個截止日期 𝑑𝑖，
 而且每個工作都有著相同的利潤 1。機器一次只能處理一個工作，𝑗𝑜𝑏𝑖 必須不間斷地運行 𝑝𝑖 個連續的時間單位。如果工
 作 𝑗𝑜𝑏𝑖 在截止日期 𝑑𝑖 之前完成，您將獲得單位利潤，但如果在截止日期之後完
