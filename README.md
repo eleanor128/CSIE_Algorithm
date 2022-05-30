@@ -73,7 +73,8 @@ Output:
 ```
 ## HW5 Critical Link Problem
 ```
-In a computer network a link L, which interconnects two servers, is considered critical if there are at least two servers A and B such that all network interconnection paths between A and B pass through L. 
+In a computer network a link L, which interconnects two servers, is considered critical if 
+there are at least two servers A and B such that all network interconnection paths between A and B pass through L. 
 Removing a critical link generates two disjoint sub–networks such that any two servers of a sub–network are interconnected.
 It is known that：
 1. the connection links are bi–directional
