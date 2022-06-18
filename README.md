@@ -1,4 +1,4 @@
-# CS_Algorithm
+# CSIE_Algorithm
 
 ## HW1 Closest Pair Problem
 ```
